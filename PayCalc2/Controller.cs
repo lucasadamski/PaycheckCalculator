@@ -24,8 +24,8 @@ namespace PayrollCalculator
             Status = string.Empty;
             Prompt = string.Empty;
             //Updated 2023 rates
-            _rates.Add(new CurrentRates("Pre Parity", 14.65m, 21.46m, 17.17m, 24.00m, 22.47m, 25.38m, 25.00m, 27.91m, 26.38m, 28.91m));
-            _rates.Add(new CurrentRates("Pre Parity With Holiday", 16.42m, 24.05m, 19.24m, 26.90m, 25.18m, 28.44m, 28.02m, 31.28m, 29.56m, 32.40m));
+            _rates.Add(new CurrentRates("Pre Parity", 14.65m, 21.47m, 17.17m, 24.00m, 22.47m, 25.38m, 25.00m, 27.91m, 26.38m, 28.91m));
+            _rates.Add(new CurrentRates("Pre Parity With Holiday", 16.42m, 24.06m, 19.24m, 26.90m, 25.18m, 28.44m, 28.02m, 31.28m, 29.56m, 32.40m));
             _rates.Add(new CurrentRates("Post Parity", 15.65m, 23.47m, 18.17m, 26.00m, 23.47m, 27.38m, 26.00m, 29.91m, 27.38m, 29.91m));
             _rates.Add(new CurrentRates("Post Parity With Holiday", 17.54m, 26.30m, 20.36m, 29.14m, 26.30m, 30.68m, 29.14m, 33.52m, 30.68m, 33.52m));
 
